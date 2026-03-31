@@ -1,6 +1,6 @@
 {
   "best_threshold": 0.99,
-  "precision_threshold": 0.9999982513813618,
+  "precision_threshold": 0.99999818527736,
   "random_state": 42,
   "test_size": 0.2,
   "target_column": "Class",
@@ -35,5 +35,10 @@
     "V27",
     "V28",
     "Amount"
-  ]
+  ],
+  "scaled_columns": [
+    "Amount",
+    "Time"
+  ],
+  "scaling_note": "Only Amount and Time are scaled; PCA-transformed features (V1-V28) are left unchanged."
 }
